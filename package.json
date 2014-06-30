@@ -1,0 +1,30 @@
+{
+  "name": "esprof",
+  "version": "0.0.1",
+  "description": "Profile javascript using esprima",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require=intelli-espower-loader"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/esprof"
+  },
+  "keywords": [
+    "profile",
+    "esprima",
+    "escodegen"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/esprof/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/esprof",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
